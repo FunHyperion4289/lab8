@@ -12,7 +12,7 @@ public class ForInput {
 
     public boolean inputValidate(String input) {
 
-        if (input.contains(" ") || input.contains("\n") || input.contains("\t") || input.isEmpty()) {
+        if (input.contains("\n") || input.contains("\t") || input.isEmpty()) {
 
             return false;
         }
