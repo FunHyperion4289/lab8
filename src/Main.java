@@ -47,7 +47,7 @@ public class Main {
                 }),
 
                 new MenuItem("Remove the customer by id", () -> {
-                    int id = forInput.enterData("Enter the id of apartment:", Types.INTEGER);
+                    int id = forInput.enterData("Enter the id of client:", Types.INTEGER);
                     customers.remove(id);
                     fileProcessor.writeFile(customers);
                 }),
